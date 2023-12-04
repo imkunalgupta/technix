@@ -1,0 +1,165 @@
+.left-box {
+  background-color: black;
+  color: whitesmoke;
+  text-decoration: none;
+}
+h2 {
+  font-size: 16px;
+  padding-top: 5px;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  display: block;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 12px 0;
+}
+.mail-agent {
+  padding-left: 26px;
+}
+.setting {
+  margin-top: 18rem;
+}
+.left-padding {
+  padding-left: 2rem;
+}
+.space {
+  padding-right: 8px;
+}
+.plus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  background-color: aliceblue;
+}
+.right-box {
+  background-color: rgb(241, 225, 225);
+  color: rgb(224, 206, 206);
+  padding-left: 1rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 82% 3%;
+}
+.inner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  background-color: rgb(240, 201, 201);
+  gap: 12px;
+  padding: 18px;
+}
+.innerbox {
+  border-radius: 2%;
+  background-color: aliceblue;
+  width: 90%;
+  height: 290px;
+  padding: 10px;
+  font-size: 12px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 5px;
+
+  background-color: aliceblue;
+  height: 24px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  border-color: burlywood;
+  gap: 12px;
+}
+.count {
+  background-color: rgb(204, 218, 218);
+  border-radius: 5px;
+  height: 35px;
+  padding: 3px;
+  display: flex;
+  padding-bottom: 10px;
+
+  justify-content: flex-start;
+}
+.small-box {
+  background-color: burlywood;
+  height: 18px;
+  width: 18px;
+  padding: 3px;
+  text-align: center;
+  margin-right: 12px;
+}
+.mail-agent-list li {
+  color: black;
+  margin-right: 12px;
+  display: inline;
+  margin-left: 0%;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.mail-agent-list li:hover {
+  text-decoration: underline;
+  color: rgb(192, 150, 231);
+}
+.image {
+  height: 8rem;
+}
+
+.img-box {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 8rem;
+  color: rgb(209, 174, 243);
+}
+.global-btn {
+  background-color: white;
+  color: rgb(209, 174, 243);
+  border: 2px solid rgb(209, 174, 243);
+  padding-bottom: 12px;
+}
+.right-footer {
+  margin-top: 25rem;
+}
+.active {
+  color: burlywood;
+  text-decoration: wavy;
+}
+.popup {
+  text-align: center;
+}
+.input {
+  width: auto;
+  max-height: 18px;
+  color: burlywood;
+  border-color: rgb(157, 122, 190);
+}
+@media screen and (max-width: 1040px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 30% 65% 5%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+    border-color: burlywood;
+    gap: 12px;
+  }
+  li {
+    font-size: 9px;
+  }
+  .mail-agent-list li {
+    font-size: 10px;
+  }
+}
